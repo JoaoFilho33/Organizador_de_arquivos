@@ -7,3 +7,6 @@ def systemCall (caminho, nomeDir):
         print(f"O diretório '{nomeDir}' foi criado com sucesso")
     except OSError as erro:
         print(f"Erro ao criar o diretório '{nomeDir}'")
+
+def menu():
+    print("A princípio você deve informar o diretório")
